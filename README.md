@@ -1,6 +1,6 @@
-#DEV218x - Advanced CSS Concepts - Microsoft
+# DEV218x - Advanced CSS Concepts - Microsoft
 
-#Module 0 - Getting Started
+## Module 0 - Getting Started
 Welcome
 Resume Course 
 Pre-Course survey
@@ -8,7 +8,7 @@ About this Course
 Meet the Instructors
 Introduce Yourself
 
-#Module 1 - Responsive Layout Using Media Queries
+## Module 1 - Responsive Layout Using Media Queries
 Resource Content: Building a Responsive Layout
 Module Labs: Overview and Required Configuration Steps
 Tutorial Lab: Planning and Designing a Layout
@@ -22,7 +22,7 @@ Assessment
 Self-Assessment Lab: Build a Fluid Layout from a Wireframe
 Assessment
 
-#Module 2 - CSS Modules and High Fidelity Designs
+## Module 2 - CSS Modules and High Fidelity Designs
 Resource Content: Building the Base and CSS Modules
 Module Labs: Overview and Required Configuration Steps
 Tutorial Lab: Build the Base Button Module
@@ -36,7 +36,7 @@ Assessment
 Self-Assessment Lab: Enhancing Your CSS Modules
 Assessment
 
-#Module 3 - Sass/Less and Preprocessing
+## Module 3 - Sass/Less and Preprocessing
 Resource Content: CSS Preprocessing Tools
 Module Labs: Overview and Required Configuration Steps
 Tutorial Lab: Getting Started Transpiling SCSS into CSS
@@ -45,7 +45,7 @@ Tutorial Lab: Create the Circle Image Frame Module and Color Mask Module
 Self-Assessment Lab: Updating Your CSS with Sass
 Assessment
 
-#Module 4 - Web App Testing and Support for Browsers and Devices
+## Module 4 - Web App Testing and Support for Browsers and Devices
 Resource Content: Tools for Testing and Supporting Web Apps
 Module Labs: Overview and Required Configuration Steps
 Tutorial Lab: Finding and Fixing Issues in Web Pages
