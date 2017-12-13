@@ -42,6 +42,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
+footer {
+    color: white;
+}
 
 
 /***************************
@@ -83,6 +86,21 @@ Layout Styles
     .col-2-3 {
         width: 66.6666%;
     }
+    /* Column One Half */
+    .col-1-2 {
+        width: 50%;
+    }
+    /* Column one Quarter */
+    .col-1-4 {
+        width: 25%;
+    }
+    /* Column One Sixth */
+    .col-1-6 {
+        width: 16.6666%;
+    }
+    .no-collapse {
+        min-height: 1px;
+    }
 }
 @media (min-width: 48em) {
     .pull-right-sm {
@@ -116,4 +134,7 @@ Theme Styles
 }
 .background-tertiary {
     background: #8DC63F; /*Green*/
+}
+.background-quaternary {
+    background: #594A42; /*Brown*/
 }
