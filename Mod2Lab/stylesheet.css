@@ -121,6 +121,41 @@ Modules
   border-color: white;
   text-decoration: none;
 }
+.btn-nav {
+  color: white;
+}
+
+/*Header Modules*/
+.header-primary {
+  background: #9B8579;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+/*Logo Modules*/
+.logo {
+  overflow: hidden;
+  display: inline-block;
+}
+.logo-primary {
+  width: 64px;
+  height: 64px;
+}
+.logo-primary img {
+  height: auto;
+}
+
+/*Navigation Modules*/
+.nav > ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.nav-primary {
+  margin-top: 35px;
+}
+
 
 /***************************
 ****************************
