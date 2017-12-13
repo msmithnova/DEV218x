@@ -156,6 +156,53 @@ Modules
   margin-top: 35px;
 }
 
+/*Hero Modules*/
+.hero {
+  text-align: center;
+}
+.hero-primary {
+  background-color: #594A42;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.hero-primary.bg-image > img {
+  opacity: 0.55;
+}
+.hero-body {
+  position: relative;
+}
+.hero-title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 2.625em;
+}
+.hero-subtitle {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.500em;
+  font-weight: normal;
+}
+.hero-subtitle + button {
+  margin-top: 25px;
+}
+
+/*Background Modules*/
+.bg-image {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.bg-image > img {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+  min-width: 100%;
+}
+
 
 /***************************
 ****************************
