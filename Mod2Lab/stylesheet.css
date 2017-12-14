@@ -77,6 +77,18 @@ Layout Styles
   .col-1-2 {
     width: 50%;
   }
+  .btn-primary-sm {
+    padding: 10px 15px !important;
+    font-size: 1.125em !important;
+  }
+  .hero-secondary {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  }
+  .hero-secondary-title {
+    margin-bottom: 60px !important;
+    font-size: 4.5em !important;
+  }
 }
 
 @media (min-width: 48em) {
@@ -126,6 +138,18 @@ Modules
 }
 .btn-nav {
   color: white;
+}
+.btn-hero {
+  padding: 15px 30px;
+  font-size: 1.75em;
+  font-weight: normal;
+  background: transparent;
+  border-color: white;
+  color: white;
+}
+.btn-hero:hover {
+  background: white;
+  color: #39B54A;
 }
 
 /*Header Modules*/
@@ -189,6 +213,28 @@ Modules
 .hero-subtitle + button {
   margin-top: 25px;
 }
+.hero-secondary {
+  background-color: #594A42;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.hero-secondary-body {
+  position: relative;
+}
+.hero-secondary.bg-image > img {
+  opacity: 0.55;
+}
+.hero-secondary-title {
+  margin-bottom: 50px;
+  font-size: 3.75em;
+  font-weight: normal;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
+}
+.hero-secondary-content {
+  font-size: 1.5em;
+  font-style: italic;
+}
 
 /*Background Modules*/
 .bg-image {
@@ -207,16 +253,27 @@ Modules
 }
 
 /*Media Object Module*/
+.media {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .media, .media-body {
   overflow: hidden;
 }
 .media-item {
-  float: let;
   margin-right: 10px;
+  float: left;
 }
 .media-item i {
   color: #594A42;
   font-size: 5em;
+}
+.media-body > button {
+  margin-top: 40px;
+}
+.media-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 
