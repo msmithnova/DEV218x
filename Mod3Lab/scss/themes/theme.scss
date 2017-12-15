@@ -4,18 +4,18 @@ Theme Styles
 ****************************
 ***************************/
 .background-primary {
-    background: #F7941E;
-  }
-  .background-secondary {
-    background: #C49A6C;
-  }
-  .background-tertiary {
-    background: #8DC63F;
-  }
-  .background-quaternary {
-    background: #594a42;
-  }
-  .background-quinary {
-    background: #e7e1d7;
-  }
+    background: $background-primary;
+}
+.background-secondary {
+  background: $background-secondary;
+}
+.background-tertiary {
+  background: $background-tertiary;
+}
+.background-quaternary {
+  background: $background-quaternary;
+}
+.background-quinary {
+  background: $background-quinary;
+}
   

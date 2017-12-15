@@ -5,13 +5,13 @@ Bg-Image Modules
     width: 100%;
     overflow: hidden;
     position: relative;
-  }
-  .bg-image > img {
-    position: absolute;
-    top: -9999px;
-    bottom: -9999px;
-    left: -9999px;
-    right: -9999px;
-    margin: auto;
-  }
+}
+.bg-image > img {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+}
   
